@@ -207,3 +207,46 @@ body {
   width: 120px;
   height: 46px;
 }
+#downloadGroww {
+  border: 1px solid #00d09c;
+  width: 68%;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  background-color: #00d09c;
+  border-radius: 10px;
+}
+#downloadGroww > div:first-child {
+  width: 56%;
+  margin: 1%;
+  /* border: 1px solid rgb(153, 78, 78); */
+  margin-bottom: 50px;
+}
+#downloadGroww > div:last-child {
+  width: 40%;
+  margin: 0%;
+  /* border: 1px solid black; */
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+#downloadGroww1 > div:first-child {
+  display: flex;
+  padding: 40px;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+#downloadGroww11 {
+  /* border: 1px solid black; */
+  display: inline;
+  margin-left: 40px;
+}
+#downloadGroww12 {
+  /* border: 1px solid black; */
+  display: inline;
+}
+#downloadGroww2 > img {
+  width: 250px;
+  height: 310px;
+  margin-left: 50px;
+}
