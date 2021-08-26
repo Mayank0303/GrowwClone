@@ -250,3 +250,92 @@ body {
   height: 310px;
   margin-left: 50px;
 }
+#firstmove {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+#firstmove > div {
+  width: 47%;
+  margin-top: 50px;
+  margin: 10px;
+}
+#firstmove > div:first-child {
+  margin-top: 80px;
+}
+#firstmove1 {
+  background-image: url("images/bgDesign.svg");
+  background-color: #e5faf5;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+#firstmove1 > img {
+  width: 98%;
+  height: 80%;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+#firstmove2 {
+  display: flex;
+  flex-direction: column;
+}
+#firstmove2 > div {
+  width: 90%;
+  height: auto;
+  margin: 2%;
+  margin-left: 70px;
+}
+#firstmove21 {
+  margin: auto;
+  font-size: 30px;
+  font-weight: 600;
+}
+.firstmove22 {
+  display: flex;
+  flex-direction: row;
+}
+.firstmove22 > div:first-child {
+  width: 8%;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  background-color: #e5faf5;
+  border-radius: 50%;
+  /* margin-left: 50px; */
+}
+.firstmove22 > div:first-child > img {
+  margin-top: 14px;
+}
+.firstmove22 > div:last-child {
+  width: 70%;
+  margin: 5px;
+  margin-left: 18px;
+}
+.firstmove22 > div:last-child > p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.firstmove22 > div:last-child > p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+}
+#firstmove23 {
+  text-align: center;
+}
+#firstmove23 > button {
+  margin-top: 50px;
+  padding: 15px;
+  width: 180px;
+  color: white;
+  background-color: #00d09c;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
