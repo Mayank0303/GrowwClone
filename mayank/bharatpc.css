@@ -879,3 +879,15 @@ body {
   margin-top: 10px;
   margin-left: 20px;
 }
+#fakefooter {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+#fakefooter > div {
+  width: 100%;
+}
+#fakefooter > div > img {
+  width: 100%;
+}
