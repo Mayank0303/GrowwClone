@@ -47,7 +47,7 @@
                         attach_money
                         </span>
                        </div>
-                     <div id="num1">466.75</div>
+                     <div id="num1">466</div>
                      <div>+6.05(1.31%)</div>
                      <div>1D</div>
                    </div>
@@ -59,16 +59,16 @@
                     <div id="days">
                        <div id="days1">
                         <div><button onclick="graph1()" id="gp1" ondblclick="graph11()" id="nse1">NSE</button></div>
-                        <div class="reports"  onclick="gpc1()"><button>1D</button></div>
-                        <div class="reports"  onclick="gpc2()"><button>1W</button></div>
-                        <div class="reports" onclick="gpc3()"><button>1M</button></div>
-                        <div class="reports" onclick="gpc4()"><button>1Y</button></div>
-                        <div class="reports" onclick="gpc5()"><button>3Y</button></div>
-                        <div class="reports" onclick="gpc6()"><button>5Y</button></div>
+                        <div class="reports"  onclick="gpc1()" ondblclick="gpc11()"><button>1D</button></div>
+                        <div class="reports"  onclick="gpc2()" ondblclick="gpc12()"><button>1W</button></div>
+                        <div class="reports" onclick="gpc3()"  ondblclick="gpc13()"><button>1M</button></div>
+                        <div class="reports" onclick="gpc4()"  ondblclick="gpc14()"><button>1Y</button></div>
+                        <div class="reports" onclick="gpc5()"  ondblclick="gpc15()"><button>3Y</button></div>
+                        <div class="reports" onclick="gpc6()"  ondblclick="gpc16()"><button>5Y</button></div>
                        </div>
                         <div id="days2">
                             <div>
-                               <img src="images/candle_stick_icon.svg" alt="">
+                               <!-- <img src="images/candle_stick_icon.svg" id="dotted1" alt="" onmouseover="dottedfun()"> -->
                             </div>
                             <div>Technical</div>
                         </div>
@@ -267,6 +267,40 @@
                         <img src="https://assets-netstorage.groww.in/stock-assets/brand_logo/INE242A01010/Indian_Oil.png" alt="">
                      </div>
                   </div>
+                   
+                  <!--I Have to complete this part-->
+                  <div id="pattern">
+                     <div id="pt1">Shareholding Pattern</div>
+                     <div>
+                        <div id="patt1">
+                           <div><button onclick="pch1()">Jun'20</button></div>
+                           <div><button onclick="pch2()">Sep'20</button></div>
+                           <div><button onclick="pch3()">Dec'20</button></div>
+                           
+                        </div>
+                        <div class="patt2">
+                           <div>Promoters</div>
+                           <div ></div>
+                        
+                           <div id="p3">51.50%</div>
+                        </div>
+                        <div class="patt2">
+                           <div>Retails And Others</div>
+                           <div ></div>
+                          
+                           <div id="p4">46.50%</div>
+                        </div>
+                        <div class="patt2">
+                           <div>Other Domestic Institutions</div>
+                           <div></div>
+                           
+                           <div id="p5">51.50%</div>
+                        </div>
+
+                     </div>
+
+                  </div>
+
                   <div id="invest">
                      <div>Top Mutual Funds Invested(4)</div>
                   </div>
@@ -293,6 +327,8 @@
                      </div>
                   </div>
              </div>
+
+             <!--box2-->
                <div id="box2">
                   <div>
                     <img src="images/peoples.svg" alt="">
@@ -304,7 +340,7 @@
          </div>
     </div>
 
-
+      <!--footer-->
     <div class="footerDiv">
       <div class="footer">
           <div id="footer1">
@@ -440,7 +476,7 @@
     }
     function graph11(){
        document.getElementById("gp1").innerHTML = "NSE";
-       document.getElementById("img1").src = "images/nse1.png";
+       document.getElementById("img1").src = "images/doyear3.png";
     }
      
     function gpc1(){
@@ -462,6 +498,51 @@
        document.getElementById("img1").src ="images/year4.png"
     }
 
+
+
+      function gpc11(){
+         document.getElementById("img1").src ="images/doday1.png";
+      }
+      function gpc12(){
+         document.getElementById("img1").src ="images/doweek1.png";
+      }
+      function gpc13(){
+         document.getElementById("img1").src ="images/domon1.png";
+      }
+      function gpc14(){
+         document.getElementById("img1").src ="images/doyear1.png";
+      }
+      function gpc15(){
+         document.getElementById("img1").src ="images/doyear3.png";
+      }
+      function gpc16(){
+         document.getElementById("img1").src ="images/donse1.png";
+      }
+      
+      function pch1(){
+         document.getElementById("p3").innerHTML = "50.00%";
+         document.getElementById("p4").innerHTML = "47.50%";
+         document.getElementById("p5").innerHTML = "39.50%";
+      } 
+      function pch2(){
+         // document.getElementById("p4").innerHTML = 52.25;
+         document.getElementById("p3").innerHTML = "50.00%";
+         document.getElementById("p4").innerHTML = "49.50%";
+         document.getElementById("p5").innerHTML = "37.50%";
+      } 
+      
+      function pch3(){
+         document.getElementById("p3").innerHTML = "56.00%";
+         document.getElementById("p4").innerHTML = "37.20%";
+         document.getElementById("p5").innerHTML = "29.70%";
+      } 
+
+
+      
+   
+
+
+   
 
     
 </script>
