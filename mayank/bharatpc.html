@@ -23,8 +23,18 @@
                      <img src="https://assets-netstorage.groww.in/stock-assets/logos/INE029A01011.png" alt="">
                    </div>
                    <div>
-                     <div>1</div>
-                     <div>2</div>
+                     <div>
+                        <span class="material-icons">
+                           bookmark_add
+                           </span>
+                           
+                     </div>
+                     <div>
+                        <span class="material-icons">
+                           share
+                           </span>
+                           
+                     </div>
                    </div>
                 </div>
                   <div id="name1">
@@ -42,17 +52,19 @@
                      <div>1D</div>
                    </div>
                     <div id="graph">
-                       <div>1</div>
+                       <div>
+                          <img src="images/nse1.png" id="img1" alt="">
+                       </div>
                     </div>
                     <div id="days">
                        <div id="days1">
-                        <div><button>NSE</button></div>
-                        <div class="reports">1D</div>
-                        <div class="reports">1W</div>
-                        <div class="reports">1M</div>
-                        <div class="reports">1Y</div>
-                        <div class="reports">3Y</div>
-                        <div class="reports">5Y</div>
+                        <div><button onclick="graph1()" id="gp1" ondblclick="graph11()" id="nse1">NSE</button></div>
+                        <div class="reports"  onclick="gpc1()"><button>1D</button></div>
+                        <div class="reports"  onclick="gpc2()"><button>1W</button></div>
+                        <div class="reports" onclick="gpc3()"><button>1M</button></div>
+                        <div class="reports" onclick="gpc4()"><button>1Y</button></div>
+                        <div class="reports" onclick="gpc5()"><button>3Y</button></div>
+                        <div class="reports" onclick="gpc6()"><button>5Y</button></div>
                        </div>
                         <div id="days2">
                             <div>
@@ -260,23 +272,23 @@
                   </div>
                   <div id="invest1">
                      <div class="invest11">
-                        <div class="xx1">FUND NAME</div>
+                        <div>FUND NAME</div>
                         <div>AUM(%)</div>
                      </div>
                      <div class="invest11">
-                        <div class="x1">Franklin Build India Direct Fund Growth</div>
+                        <div id="xx1" onmouseover="ch1()" onmouseout="ch12()">Franklin Build India Direct Fund Growth</div>
                         <div>4.70%</div>
                      </div>
                      <div class="invest11">
-                        <div class="x1">Franklin India Focused Equity Fund Direct Growth</div>
+                        <div id="xx12" onmouseover="ch2()" onmouseout="ch22()">Franklin India Focused Equity Fund Direct Growth</div>
                         <div>3.66%</div>
                      </div>
                      <div class="invest11">
-                        <div class="x1">DSP Natural Resources and New Energy Fund Direct Plan Growth</div>
+                        <div id="xx13" onmouseover="ch3()" onmouseout="ch32()">DSP Natural Resources and New Energy Fund Direct Plan Growth</div>
                         <div>2.86%</div>
                      </div>
                      <div class="invest11">
-                        <div class="x1">ICICI Prudential Infrastructure Direct Growth</div>
+                        <div id="xx14" onmouseover="ch4()" onmouseout="ch42()">ICICI Prudential Infrastructure Direct Growth</div>
                         <div>2.24%</div>
                      </div>
                   </div>
@@ -393,8 +405,63 @@
             document.getElementById("num1").style.color = "red";
          }
     }
-      
-    
+
+   //  var fd1 = document.getElementById("xx1").style.color = "#00d09c";
+
+    function ch1(){
+       document.getElementById("xx1").style.color="#00d09c";
+    }
+    function ch12(){
+       document.getElementById("xx1").style.color = "#44475b";
+    }
+    function ch2(){
+       document.getElementById("xx12").style.color="#00d09c";
+    }
+    function ch22(){
+       document.getElementById("xx12").style.color = "#44475b";
+    }
+    function ch3(){
+       document.getElementById("xx13").style.color="#00d09c";
+    }
+    function ch32(){
+       document.getElementById("xx13").style.color = "#44475b";
+    }
+    function ch4(){
+       document.getElementById("xx14").style.color="#00d09c";
+    }
+    function ch42(){
+       document.getElementById("xx14").style.color = "#44475b";
+    }
+
+    //graph images
+    function graph1(){
+       document.getElementById("gp1").innerHTML = "BSE";
+       document.getElementById("img1").src = "images/year3.png";
+    }
+    function graph11(){
+       document.getElementById("gp1").innerHTML = "NSE";
+       document.getElementById("img1").src = "images/nse1.png";
+    }
      
+    function gpc1(){
+       document.getElementById("img1").src ="images/day1.png"
+    }
+    function gpc2(){
+       document.getElementById("img1").src ="images/week1.png"
+    }
+    function gpc3(){
+       document.getElementById("img1").src ="images/month1.png"
+    }
+    function gpc4(){
+       document.getElementById("img1").src ="images/year1.png"
+    }
+    function gpc5(){
+       document.getElementById("img1").src ="images/year3.png"
+    }
+    function gpc6(){
+       document.getElementById("img1").src ="images/year4.png"
+    }
+
+
     
 </script>
