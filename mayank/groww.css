@@ -483,3 +483,15 @@ body {
   margin-top: 1px;
   padding-top: 2px;
 }
+#fakefooter1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+#fakefooter1 > div {
+  width: 100%;
+}
+#fakefooter1 > div > img {
+  width: 100%;
+}
