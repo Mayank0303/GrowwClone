@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchlist</title>
+    <link rel="stylesheet" href="groww.css">
+</head>
+<body>
+    <h1 id="watchHead">Watchlist</h1>
+     <div id="WatchCon1">
+      <!--  <div id="watchlist1">
+            <div><img src="https://assets-netstorage.groww.in/stock-assets/logos/INE029A01011.png" alt=""></div>
+            <div>Bharat Petroleum.Cor</div>
+            <div>$ 2,227.40</div>
+            <div id=randomNum>445(2.65%)</div>
+        </div> -->
+        <div id="firstbox">   
+        <div>Company</div>
+        <div>Market Price</div>
+        <div>52 Week low</div>
+        <div>52 Week high</div>
+        </div>
+
+        <div id="secondbox">  
+        <div><img src="https://assets-netstorage.groww.in/stock-assets/logos/INE029A01011.png" alt=""></div>
+        <div id="randomNum">$285.75</div>
+        <div>$120.80</div>
+        <div>$360.75</div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    // var rannum = localStorage.getItem("numbers");
+    // document.getElementById("randomNum").innerHTML = rannum;
+
+    var rannum = setInterval(changeNum,3000);
+       
+       function changeNum(){
+           document.getElementById("randomNum").innerHTML= Math.floor(Math.random()*1000)
+           var val= document.getElementById("randomNum").innerHTML;
+          
+   
+           //  document.getElementById("num1").style.color = "#00d09c";
+            if(val > 400){
+               document.getElementById("randomNum").style.color = "#00d09c"; 
+            }else{
+               document.getElementById("randomNum").style.color = "red";
+            }
+       }
+
+</script>
+
+
+
+
+
+<!--
+    #watchlist1 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 200px;
+  margin: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+#watchlist1:hover {
+  box-shadow: 2px 2px 2px #00d09c;
+}
+#watchlist1 > div {
+  width: 100%;
+  margin-top: 7px;
+}
+#watchlist1 > div:first-child {
+  border: 2px solid #bee2d9;
+  width: 27%;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+#watchlist1 > div:first-child > img {
+  width: 50px;
+}
+#watchlist1 > div:nth-child(2) {
+  /* border: 2px solid #bee2d9; */
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+
+  margin-left: 15px;
+  font-weight: 600;
+}
+#watchlist1 > div:nth-child(3) {
+  /* border: 2px solid #bee2d9; */
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 50%;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#watchlist1 > div:nth-child(4) {
+  /* border: 2px solid #bee2d9; */
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 50%;
+  margin-left: 15px;
+  color: #00d09c;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+-->
