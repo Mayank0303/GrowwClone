@@ -18,13 +18,21 @@ we just have to add images
  
  This is the Landing page when the user enters the website for the first time this page will show up.
  
+ ![Screenshot (407)](https://user-images.githubusercontent.com/46128997/131253458-3b336a5c-50f2-45ba-9651-0430ebc06227.png)
+ 
  ### - Signup page:-
  
- add images
+ 
+ 
+ ![WhatsApp Image 2021-08-29 at 19 35 49](https://user-images.githubusercontent.com/46128997/131253536-88880584-c2c0-48ee-aecb-745f7f3ad728.jpeg)
+ 
+ 
  
  ### -Products:-
  
- add images
+ 
+ 
+ ![Screenshot (408)](https://user-images.githubusercontent.com/46128997/131253668-7cf193aa-cd47-427a-a6bc-e970d314dede.png)
  
  # How We divided the work in our Team members:-
  
@@ -72,6 +80,14 @@ we just have to add images
  
 All the image and icon links have been taken from the main website (Groww.com) and some other internet sources
 
- and may be subject to copyright. So, try not to use the images or icons for business purposes or reproduce them without
+and may be subject to copyright. So, try not to use the images or icons for business purposes or reproduce them without
 
 prior approval from the owner. The images and icons used here are just for making this project and for learning purposes.
+
+
+
+
+
+
+
+
