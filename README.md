@@ -49,3 +49,29 @@ we just have to add images
  it gave us a lot of confidence. Although we could have done more such as we could have added a timer and there were some
  
  more functionalities that could have been done, yeah the time didn't permit us to go further. But we will surely improve it
+ 
+ # Technology used:
+ 
+ #### HTML
+ 
+ Used to build the basic structure of the cloned site. All the headings, paragraphs, links, forms, etc were structured by HTML.
+ 
+ #### CSS
+ 
+ Used to add styling to our structure. Background images were used to make the website identical. Also, Grid and Flex boxes
+ 
+ were used along with the media queries to make the pages fully responsive.
+ 
+ #### Javascript
+ 
+ Used to add logical functionalities to the page like Onscroll functions login and signup carts 
+ 
+ and price calculation, animations and also to make the dynamic aspect of the website.
+ 
+ #### Note:
+ 
+All the image and icon links have been taken from the main website (Groww.com) and some other internet sources
+
+ and may be subject to copyright. So, try not to use the images or icons for business purposes or reproduce them without
+
+prior approval from the owner. The images and icons used here are just for making this project and for learning purposes.
