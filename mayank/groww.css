@@ -10,6 +10,7 @@ body {
 }
 
 .MainContainer {
+  margin-top: 50px;
   width: 100%;
 }
 .container1 {
@@ -38,7 +39,7 @@ body {
   width: 3rem;
 }
 #box2_1 img {
-  width: 10px !important;
+  width: 30px !important;
   margin-left: 5px;
   margin-top: 0%;
   border: 1px solid green;
@@ -64,7 +65,7 @@ body {
 }
 
 #box3_1 img {
-  width: 10px !important;
+  width: 30px !important;
   font-size: 10px;
   margin-left: 5px;
   margin-top: 0%;
@@ -287,16 +288,18 @@ body {
   width: 90%;
   height: auto;
   margin: 2%;
-  margin-left: 70px;
+  margin-left: 90px;
 }
 #firstmove21 {
   margin: auto;
   font-size: 30px;
   font-weight: 600;
+  margin-bottom: 50px;
 }
 .firstmove22 {
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 .firstmove22 > div:first-child {
   width: 8%;
